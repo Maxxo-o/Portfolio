@@ -3,6 +3,10 @@ import { LoadingScreen } from './components/LoadingScreen'
 import './index.css'
 import { useState } from 'react'
 import { NavBar } from './components/NavBar'
+import { MobileMenu } from './components/MobileMenu'
+import { Home } from './components/sections/Home'
+import { About } from './components/sections/About'
+
 
 function App() {
   const [isLoaded, setisLoaded] = useState(false)
@@ -17,6 +21,8 @@ function App() {
         } bg-black text-gray-100`}>
         <NavBar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+        <Home />
+        <About />
       </div>
     </>
   )
