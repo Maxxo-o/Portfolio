@@ -9,7 +9,7 @@ export const NavBar = ({ menuOpen, setMenuOpen}) => {
     return <nav className="fixed top-0 w-full z-50 bg-[rgba(10,10,10,0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg">
         <div className="max-w-5xl mx-auto px-4">
             <div className="flex items-center justify-between h-16">
-                <a href="#home" className="font-mono text-xl font-bold text-white"> max.segot</a>
+                <a href="#home" className="font-mono text-xl font-bold text-white"> Max.<span className="text-blue-500">Segot</span></a>
 
                 <div className="w-7 h-5 relative cursor-pointer z-50 md:hidden" onClick={() => setMenuOpen((prev) => !prev)}>
                     &#9776;
