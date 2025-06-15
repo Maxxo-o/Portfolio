@@ -31,8 +31,10 @@ export const Projects = () => {
 
                         <div className="mt-4 flex items-center justify-between">
                             <a className="text-blue-400 hover:text-blue-300 transition-colors" href="https://github.com/RGouaud/MotricityExercices.git">
-                                View Project ⮕
+                                Voir le projet ⮕
                             </a>
+                            <img src="public/github.png" alt="Application d’étude de la motricité via des outils de reconnaissance" className="w-8 h-8 rounded-full object-cover ml-4">
+                            </img>
                         </div>
                     </div>
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all flex flex-col justify-between"> 
@@ -53,8 +55,10 @@ export const Projects = () => {
 
                         <div className="mt-4 flex items-center justify-between">
                             <a className="text-blue-400 hover:text-blue-300 transition-colors" href="https://github.com/EstebanBiret/SoStudy.git">
-                                View Project ⮕
+                                Voir le projet ⮕
                             </a>
+                            <img src="public/github.png" alt="Application d’étude de la motricité via des outils de reconnaissance" className="w-8 h-8 rounded-full object-cover ml-4">
+                            </img>
                         </div>
                     </div>
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all flex flex-col justify-between"> 
@@ -82,8 +86,10 @@ export const Projects = () => {
 
                         <div className="mt-4 flex items-center justify-between">
                             <a className="text-blue-400 hover:text-blue-300 transition-colors" href="https://github.com/Maxxo-o/ProjetMarket.git">
-                                View Project ⮕
+                                Voir le projet ⮕
                             </a>
+                            <img src="public/github.png" alt="Application d’étude de la motricité via des outils de reconnaissance" className="w-8 h-8 rounded-full object-cover ml-4">
+                            </img>
                         </div>
                     </div>
                     

@@ -25,7 +25,7 @@ export const About = () => {
                         Avec une solide expérience en développement front-end et back-end, je maîtrise des technologies telles que React, Vue.js, Node.js et Java. Mon objectif est de créer des applications web qui non seulement répondent aux besoins des utilisateurs, mais qui sont également faciles à maintenir et à étendre.
                     </p>
                     <p className="text-gray-300 mb-6">
-                        When I'm not coding, you can find me exploring new technologies, contributing to open source projects, or enjoying the great outdoors.
+                        En dehors du développement, je suis un passionné de basketball, de surf. J'aime également me cultiver et découvrir de nouvelles choses, que ce soit à travers la lecture, les voyages ou les rencontres.
                     </p>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
